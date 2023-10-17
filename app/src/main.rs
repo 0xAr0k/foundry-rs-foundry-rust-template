@@ -6,6 +6,7 @@ use eyre::Result;
 use std::sync::Arc;
 
 #[tokio::main]
+
 async fn main() -> Result<()> {
     let provider = GOERLI.provider();
     let provider = Arc::new(provider);
