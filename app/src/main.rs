@@ -15,6 +15,6 @@ async fn main() -> Result<()> {
 
     let contract = Counter::new(address, provider);
     let blk = contract.client().get_block_number().await?;
-    println!("Hello, world! {}", blk);
+    println!("#IFYKYK: Hello, Mom! {}", blk);
     Ok(())
 }
